@@ -1,0 +1,25 @@
+
+services:
+  py:
+    image: py_ww:latest
+    container_name: py_w_11
+    volumes:
+     - data_f:/app/data
+    depends_on:
+       - java
+      
+
+  java:
+    image: java_ww:latest
+    container_name: java_w_11
+    volumes: 
+      - data_f:/app/data
+    
+    tty: true # docker run -t
+    stdin_open: true
+volumes:
+   data_f:
+
+    
+
+

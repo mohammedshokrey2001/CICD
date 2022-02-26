@@ -1,0 +1,10 @@
+
+
+path in java pro
+
+"/app/data"
+
+
+path in python pro
+
+"/app/data"
