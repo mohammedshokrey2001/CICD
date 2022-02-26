@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  db:
+    image: 'mysql'
+    environment:
+      - MYSQL_ROOT_PASSWORD="secret"
+ 
+    networks: my-net my-network
+    container_name: mysql-server
+    
+
+
+
+  
